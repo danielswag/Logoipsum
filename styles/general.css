@@ -1,0 +1,28 @@
+:root {
+  --dark: #19191b;
+  --gray: #696871;
+  --purple: #5454d4;
+  --orange: #ff7143;
+}
+
+html{scroll-padding: 100px;
+scroll-behavior: smooth;}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:
+    dm sans,
+    sans-serif;
+}
+
+[class*="__container"] {
+  max-width: 1070px;
+  margin-inline: auto;
+}
+
+main{margin-top: 141px;}

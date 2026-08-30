@@ -1,0 +1,42 @@
+.mini-features {
+  padding-block: 32px;
+}
+
+.mini-features__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 74px;
+}
+
+.mini-feature {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  text-align: center;
+}
+
+.mini-feature__header {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+
+.mini-feature__title{
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: -0.75;
+    line-height: 36px;
+}
+
+.mini-feature__desc{
+    font-family: mulish, sans-serif;
+    line-height: 24px;
+    letter-spacing: -0,5px;
+    color: var(--gray);
+}
+
+.mini-feature__image{
+    height: 97px;
+}

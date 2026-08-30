@@ -1,0 +1,125 @@
+.subscription {
+  padding-block: 118px 158px;
+}
+
+.subscription__container {
+  display: flex;
+  flex-direction: column;
+  gap: 82px;
+}
+
+.subscription__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.subscription__title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -1.88px;
+}
+
+.subscription__tabs {
+  display: flex;
+  border-block: 5px solid #f7f7fb;
+  border-inline: 6px solid #f7f7fb;
+  border-radius: 10px;
+}
+
+.subscription__tab {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: -0.5px;
+  border: none;
+  background-color: #f7f7fb;
+  padding: 17px 56px;
+  border-radius: 0 10px 10px 0;
+  cursor: pointer;
+}
+
+.subscription__tab.active {
+  background-color: var(--purple);
+  border-radius: 10px 0 0 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.subscription__plans {
+  display: grid;
+  grid-template-columns: 330fr 376fr 330fr;
+  gap: 17px;
+}
+
+.subscription__plan {
+  padding: 34px 23px 27px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.subscription__plan-title {
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: -0.56px;
+  line-height: 28px;
+  color: var(--gray);
+}
+
+.subscription__plan-price {
+  font-weight: 700;
+  font-size: 60px;
+  margin-block: 22px 28px;
+  line-height: 56px;
+  letter-spacing: -1.03;
+  color: var(--dark);
+}
+
+.subscription__plan-features.first {
+  margin-top: 38px;
+}
+
+.subscription__plan-price > span {
+  font-size: 28px;
+}
+
+.subscription__plan-features {
+  color: var(--gray);
+  font-family: mulish, sans-serif;
+  font-size: 17px;
+  letter-spacing: 0.53px;
+  line-height: 50px;
+}
+
+.subscription__button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  padding-block: 19px;
+  border-radius: 10px;
+  font-size: 17px;
+  letter-spacing: -0.53;
+  font-weight: 700;
+  margin-top: 36px;
+}
+
+.subscription__plan.active {
+  background-color: var(--orange);
+}
+
+.subscription__plan.active .subscription__plan-title {
+  color: rgb(255, 255, 255, 70%);
+}
+
+.subscription__plan.active .subscription__plan-price,
+.subscription__plan.active .subscription__plan-features,
+.subscription__plan.active .subscription__button {
+  color: white;
+}
+
+.subscription__plan.active .subscription__button{
+  background-color: #9f3919;
+}

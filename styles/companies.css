@@ -1,0 +1,14 @@
+.companies{
+    padding-block: 30px;
+}
+
+.companies__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.companies__company{
+    cursor: pointer;
+}
